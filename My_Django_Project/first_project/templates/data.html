@@ -1,0 +1,39 @@
+{% extends '__base.html' %}
+
+{% block content %}
+
+<!-- Using content data -->
+<div>
+	<h1>Data Page</h1>
+	<ul>
+		<li>
+			<p>{{ my_text }}</p>
+		</li>
+		<li>
+			<p>{{ my_number }}</p>
+		</li>
+		<!-- Using a forloop -->
+		{% for item in my_list %}
+		<li>
+			<p>{{ forloop.counter }} - {{ item }}</p>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+
+<!-- for loop with conditional statements -->
+<div>
+	<ul>
+		{% for num in my_list %}
+			{% if num > 100 %}
+				<li>{{ num }} is greater than 1000 </li>
+			{% elif num < 1000 and num >= 0 %}
+				<li>{{ num }} is less than 1000</li>
+			{% else %}
+			 <li>{{ num }} is not greater than 1000 and not between 0-1000</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
+
+{% endblock%}

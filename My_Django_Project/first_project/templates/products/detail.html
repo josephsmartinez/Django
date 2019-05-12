@@ -1,0 +1,20 @@
+{% extends '__base.html'%}
+
+{% block content %}
+
+{% for prod in prod_list %}
+  {{ prod}}
+{% endfor%}
+
+{{ title }}
+
+<!-- <div>
+    <h1>{{ title }}</h1>
+    <p> {% if description != None and description != '' %} 
+          {{ description }}
+        {% else %}
+            Coming soon!
+        {% endif%} 
+    </p>
+</div> -->
+{% endblock%}
