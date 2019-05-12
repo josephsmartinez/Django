@@ -1,5 +1,19 @@
 # Django notes
 
+## Project Set Up
+
+### Python, VS Code and Linter Env Setup
+
+Make sure to select the correct python interpreter.
+> ctlr+shift+p
+> python select interpreter
+The setting in the .vscode file should change to reflect the correct python path
+
+### Git Repo Set Up 
+
+Use the django ignore file  
+[gitignore files](https://gitignore.io/)
+
 ## Command line tool 
 
 Django admin tool
