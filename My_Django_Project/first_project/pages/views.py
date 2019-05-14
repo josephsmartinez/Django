@@ -36,3 +36,6 @@ def current_datetime_view(request):
     now = datetime.datetime.now()
     html = "<html><body>It is now %s.</body></html>" % now
     return render(request, "datetime.html", now)
+
+def scaffolding_example_view(request):
+    return render(request, "scaffolding_template/example.html", {})

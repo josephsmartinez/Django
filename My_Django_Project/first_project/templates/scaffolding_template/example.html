@@ -1,0 +1,21 @@
+{% extends 'scaffolding_template/__base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+
+<center>
+
+<div style="height: 2em"></div>
+
+<h1>Example Template Page Reference</h1>
+
+<div style="height: 2em"></div>
+
+<div>
+    <h3>Loading images from static files</h3>
+    <img src="{% static "images/techpic.jpeg" %}" alt="Uh Oh, didn't show!">
+</div>
+
+</center>
+{% endblock %}

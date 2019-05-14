@@ -57,7 +57,10 @@ Using the manage.shell for code testing
 
 ## URL and Paths
 
-## 
+## Modeles
+
+- Remeber to update/migrate the database when changes are made
+- Update the admin.py file with the newly added models, make sure to import
 
 
 ### Resources:
