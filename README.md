@@ -62,6 +62,9 @@ Using the manage.shell for code testing
 - Remeber to update/migrate the database when changes are made
 - Update the admin.py file with the newly added models, make sure to import
 
+### Running Models commands for testing
+
+
 
 ### Resources:
 
