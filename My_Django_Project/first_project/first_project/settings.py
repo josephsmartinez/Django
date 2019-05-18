@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
-
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -30,7 +29,8 @@ SECRET_KEY = 'c5^7sy2dz37er8p-4nucwx7ll+p&5cr@j=srg@^vpedcm)&3yb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# A list of strings representing the host/domain names that this Django site can serve.
+ALLOWED_HOSTS = ['ubuntu19.ad.fiu.edu', '10.100.36.62', '[::9000]']
 
 
 # Application definition
