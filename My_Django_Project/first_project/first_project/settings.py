@@ -46,8 +46,7 @@ INSTALLED_APPS = [
     # third party
 
     # own
-    'products',
-    'pages'
+    'blog.apps.BlogConfig',
 
 ]
 
