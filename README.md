@@ -39,6 +39,9 @@ NOTE: Django needs to be notified about the new application @ /project/settings.
 Syncs the current setting
 > python manage.py migrate
 
+Prints the sql code for the migration
+> python manage.py sqlmigrate blog 0001
+
 Create admin users
 > python manage.py createsuperuser
 
